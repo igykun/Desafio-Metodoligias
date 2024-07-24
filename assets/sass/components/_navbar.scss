@@ -1,0 +1,10 @@
+.navbar, .logo, .footer {
+    &__title{
+        @include Nav-Logo;
+    }
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+}

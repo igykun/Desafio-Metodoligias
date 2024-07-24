@@ -1,0 +1,20 @@
+
+.register button {
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.register__button--create {
+    background-color: $green;
+    color: $white;
+    font-weight: $font-bold;
+    height: 60px;
+    border: none;
+}
+
+.register__google--register {
+    background-color: transparent;
+    border: 1px solid black;
+    font-weight: $font-bold;
+    height: 60px;
+}

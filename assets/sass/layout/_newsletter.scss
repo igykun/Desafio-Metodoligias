@@ -1,0 +1,50 @@
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 50px auto;
+    width: 50%;
+    border-radius: 10px;
+    background-color: $green;
+    justify-content: center;
+
+    &__titlebox {
+        margin: 10px 100px 0px 100px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    &__title {
+        text-align: start;
+        font-size: 20px;
+        font-weight: $font-bold;
+        color: $white;
+    }
+
+    &__subscribe {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        input, button {
+            margin: 10px 0 10px 30px;
+        }
+    }
+
+    &__email {
+        width: 40%;
+        height: 35px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    &__btn {
+        background-color: $light-black;
+        font-weight: $font-bold;
+        border-radius: 5px;
+        border: none;
+        width: 200px;
+    }
+}
