@@ -15,7 +15,7 @@ a {
 }
 
 .register__button--create {
-  background-color: #CB67F9;
+  background-color: #4cc441;
   color: #fff;
   font-weight: 700;
   height: 60px;
@@ -91,7 +91,7 @@ a {
   margin: 50px auto;
   width: 50%;
   border-radius: 10px;
-  background-color: #CB67F9;
+  background-color: #4cc441;
   justify-content: center;
 }
 .newsletter__titlebox {
@@ -186,4 +186,133 @@ a {
 .footer__date {
   margin: 20px;
   margin-left: auto;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: #000000;
+}
+#wrapper__left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#wrapper__right {
+  flex: 1;
+}
+#wrapper__signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-bottom: 1rem;
+}
+#wrapper__form {
+  width: 80%;
+  padding-bottom: 3rem;
+}
+#wrapper__logo {
+  margin-bottom: 8vh;
+}
+#wrapper__showcase {
+  display: flex;
+  background: url("https://img.freepik.com/fotos-premium/fondo-verde-fondo-verde-palabra-verde-parte-inferior_867159-2.jpg") no-repeat center center/cover;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.wrapper__label {
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: #fff;
+  padding: 5px;
+}
+.wrapper__box {
+  display: flex;
+  justify-content: space-between;
+  margin: 1px;
+  width: 400px;
+}
+.wrapper__box--sign {
+  justify-content: center;
+}
+.wrapper__button--secondary-btn, .wrapper__or, .wrapper__links {
+  width: 60%;
+}
+.wrapper__or--bar {
+  flex: auto;
+  border: none;
+  height: 1px;
+  background-color: #aaa;
+}
+.wrapper__or {
+  text-align: center;
+}
+.wrapper__span {
+  color: #ccc;
+  padding: 0 0.8rem;
+}
+.wrapper__showcase--text {
+  font-size: 3rem;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+.wrapper__links--secondary-btn {
+  width: 60%;
+  margin: auto;
+}
+.wrapper__copy {
+  color: #ccc;
+  text-align: center;
+  font-size: 0.8rem;
+  max-width: 80%;
+  padding-top: 5rem;
+}
+.wrapper__copy--links {
+  color: #4cc441;
+  text-decoration: underline;
+}
+.wrapper__button--primary-btn {
+  margin: 20px;
+  height: 30px;
+  display: block;
+  border: 1px solid;
+  border-radius: 2px;
+  font-weight: 500;
+  background-color: #4cc441;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s;
+}
+.wrapper__button--primary-btn:hover {
+  background-color: #4cc441;
+}
+.wrapper__button--secondary-btn {
+  padding: 0.7rem 1rem;
+  height: 2.7rem;
+  display: block;
+  border: 1px solid #f4f4f4;
+  border-radius: 2px;
+  font-weight: 500;
+  background-color: none;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s;
+}
+.wrapper__button--secondary-btn {
+  border-color: #4cc441;
+  color: #4cc441;
 }/*# sourceMappingURL=main.css.map */

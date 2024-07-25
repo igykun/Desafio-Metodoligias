@@ -1,0 +1,198 @@
+
+
+#wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: $black;
+
+    &__left{
+        display: flex;
+        flex-direction: column;
+        flex:1;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    
+    }
+
+    &__right{
+        
+        flex:1;
+
+    }
+
+    &__signin{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding-bottom: 1rem;
+    }
+
+    &__form{
+        width: 80%;
+        padding-bottom: 3rem;
+    
+    }
+
+    &__logo{
+        margin-bottom: 8vh;
+    
+    }
+
+    &__showcase {
+        display: flex;
+        background: url('https://img.freepik.com/fotos-premium/fondo-verde-fondo-verde-palabra-verde-parte-inferior_867159-2.jpg') no-repeat center center / cover;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+.wrapper {
+    &__label{
+        font-size: 0.9rem;
+        line-height: 2rem;
+        font-weight: 500;
+        color: $white;
+        padding: 5px;
+    }
+
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        margin: 1px;
+        width: 400px;
+    }
+
+    &__box--sign {
+        justify-content: center;
+    }
+
+    &__button--secondary-btn, &__or, &__links {
+    
+        width: 60%;
+    }
+
+    &__or--bar{
+        flex: auto;
+        border: none;
+        height: 1px;
+        background-color: #aaa;
+    }
+
+    &__or {
+        text-align: center;
+    }
+
+    &__span{
+        color: #ccc;
+        padding: 0 0.8rem;
+    }
+
+    
+    &__showcase--text {
+        font-size: 3rem;
+        width: 100%;
+        color: #fff;
+        margin-bottom: 2.5rem;
+    }
+
+    
+    &__links--secondary-btn{
+        width: 60%;
+        margin: auto;
+    }
+
+    &__copy{
+        color: #ccc;
+        text-align: center;
+        font-size: 0.8rem;
+        max-width: 80%;
+        padding-top: 5rem;
+    
+    }
+
+    &__copy--links{
+        color: $green;
+        text-decoration: underline;
+    
+    }
+
+    &__button--primary-btn{
+        // padding: 0.7rem 1rem;
+        margin: 20px;
+        height: 30px;
+        display: block;
+        border: 1px solid;
+        border-radius: 2px;
+        font-weight: 500;
+        background-color: $green;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    &__button--primary-btn:hover{
+        background-color: $green;
+    }
+    
+    &__button--secondary-btn{
+        padding: 0.7rem 1rem;
+        height: 2.7rem;
+        display: block;
+        border: 1px solid #f4f4f4;
+        border-radius: 2px;
+        font-weight: 500;
+        background-color: none;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    &__button--secondary-btn{
+        border-color: $green;
+        color: $green;
+    }
+}
+
+// @media(min-width: 1200px){
+
+//     #wrapper__left{
+//         flex: 4;
+//     }
+//     #wrapper__right{
+//         flex: 6;
+//     }
+// }
+
+// @media(max-width: 768px) {
+//     body{
+//         overflow: auto;
+//     }
+
+//     #wrapper__right{
+//         display: none;
+//     }
+//     #wrapper__left{
+//         justify-content: start;
+//         margin-top: 4vh;
+//     }
+//     #wrapper__logo{
+//         margin-bottom: 2vh;
+//     }
+
+//     .wrapper__text{
+//         margin-bottom: 0.7rem;
+//     }
+
+//     .wrapper__copy {
+//         padding-top: 1rem;
+//     }
+// }
