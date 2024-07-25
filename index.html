@@ -26,17 +26,30 @@
             <input type="email" name="Correo" id="register__email" placeholder="Email">
             <input type="password" name="Pwd" id="register__pwd" placeholder="Contraseña">
             <input type="password" name="Pwd" id="register__confirmpwd" placeholder="Confirma tu contraseña">
-            <button class="register__button--create"><a href="./subscription.html" onclick="window.open('./subscription.html', 
-                'newwindow', 
-                'width=1000,height=350'); 
-                return false;">Crea tu cuenta</a></button>
+            <button class="register__button--create"><a href="./login.html" target="_blank">Crea tu cuenta</a></button>
             <button class="register__google--register"><img src="./assets/img/logos/google.png" alt="logo google" class="register__logogoogle" >Regístrate con Google</button>
         </form>
         <p class="register__logintxt">
-            ¿Ya tienes una cuenta? <a href="./blog.html"  target="_blank" class="register__login">Inicia sesión</a>
+            ¿Ya tienes una cuenta? <a href="./login.html"  target="_blank" class="register__login">Inicia sesión</a>
         </p>
     </section>
-
+    <div class="newsletter">
+        <div class="newsletter__titlebox">
+            <h1 class="newsletter__title">Mantente actualizado sobre el</h1>
+            <h2 class="newsletter__title">Desarrollo Front End</h2>
+        </div>
+        <div class="newsletter__subscribe">
+            <input type="email" class="newsletter__email">
+            <button class="newsletter__btn">Suscríbete</button>
+        </div>
+    </div>
+    <hr>
+    <footer class="footer bg-body-black transparent">
+        <div class="footer__title">
+            <img src="./assets/img/logos/adl.png" alt="Logo adl" width="30px" height="30px" class="footer__logo d-inline-block">
+            Blog FrontEnd
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
