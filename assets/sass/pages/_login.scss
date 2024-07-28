@@ -48,6 +48,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        
     }
 
 }
@@ -72,10 +73,7 @@
         justify-content: center;
     }
 
-    &__button--secondary-btn, &__or, &__links {
-    
-        width: 60%;
-    }
+   
 
     &__or--bar{
         flex: auto;
@@ -122,77 +120,4 @@
     
     }
 
-    &__button--primary-btn{
-        // padding: 0.7rem 1rem;
-        margin: 20px;
-        height: 30px;
-        display: block;
-        border: 1px solid;
-        border-radius: 2px;
-        font-weight: 500;
-        background-color: $green;
-        color: #fff;
-        text-decoration: none;
-        cursor: pointer;
-        text-align: center;
-        transition: all 0.5s;
-    }
-    &__button--primary-btn:hover{
-        background-color: $green;
-    }
-    
-    &__button--secondary-btn{
-        padding: 0.7rem 1rem;
-        height: 2.7rem;
-        display: block;
-        border: 1px solid #f4f4f4;
-        border-radius: 2px;
-        font-weight: 500;
-        background-color: none;
-        color: #fff;
-        text-decoration: none;
-        cursor: pointer;
-        text-align: center;
-        transition: all 0.5s;
-    }
-
-    &__button--secondary-btn{
-        border-color: $green;
-        color: $green;
-    }
 }
-
-// @media(min-width: 1200px){
-
-//     #wrapper__left{
-//         flex: 4;
-//     }
-//     #wrapper__right{
-//         flex: 6;
-//     }
-// }
-
-// @media(max-width: 768px) {
-//     body{
-//         overflow: auto;
-//     }
-
-//     #wrapper__right{
-//         display: none;
-//     }
-//     #wrapper__left{
-//         justify-content: start;
-//         margin-top: 4vh;
-//     }
-//     #wrapper__logo{
-//         margin-bottom: 2vh;
-//     }
-
-//     .wrapper__text{
-//         margin-bottom: 0.7rem;
-//     }
-
-//     .wrapper__copy {
-//         padding-top: 1rem;
-//     }
-// }

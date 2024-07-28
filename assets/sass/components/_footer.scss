@@ -2,4 +2,16 @@
     &__title{
         @include Nav-Logo;
     }
+
+    display: flex;
+    margin: auto;
+    width: 80%;
+
+    &__date {
+       margin: 20px;
+       margin-left: auto;
+    }
+
+
+
 }
