@@ -18,3 +18,60 @@
     font-weight: $font-bold;
     height: 60px;
 }
+
+.wrapper {
+    
+    &__button--secondary-btn, &__or, &__links {
+    
+        width: 60%;
+    }
+
+    &__button--primary-btn{
+        // padding: 0.7rem 1rem;
+        margin: 20px;
+        height: 30px;
+        display: block;
+        border: 1px solid;
+        border-radius: 2px;
+        font-weight: 500;
+        background-color: $green;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    &__button--primary-btn:hover{
+        background-color: $green;
+    }
+    
+    &__button--secondary-btn{
+        padding: 0.7rem 1rem;
+        height: 2.7rem;
+        display: block;
+        border: 1px solid #f4f4f4;
+        border-radius: 2px;
+        font-weight: 500;
+        background-color: none;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    &__button--secondary-btn{
+        border-color: $green;
+        color: $green;
+    }
+}
+
+.newsletter {
+    &__btn {
+        background-color: $light-black;
+        font-weight: $font-bold;
+        border-radius: 5px;
+        border: none;
+        width: 200px;
+    }
+}
